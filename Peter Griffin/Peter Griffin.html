@@ -1,0 +1,623 @@
+<!-- Peter Griffin Sample WebSites -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title And Icon   -->
+    <title> Peter Griffin </title>
+    <link rel="icon" href="./Image/PeterWebIcons.svg" />
+    <!-- Bootstrap Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts Link (Matemasie,Amsterdam,Griffy,Asap Condensed)  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin  >
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Css -->
+     <style>
+        /* All Element */
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+            font-family: "New Amsterdam", sans-serif;
+        }
+        /* Nav Bar Design */
+        .outerBody {
+            background-image: url('./Image/PeterBackgroundImage.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 800px;
+        }
+        li,a,button {
+            font-family: fantasy;
+            font-weight: 400;
+            font-size: 14px;
+            color: #FFC300 ;
+            text-decoration: none;
+        }
+        .head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 5%;
+            background-color: rgb(235, 196, 69);
+            border-radius: 100px;
+            box-shadow: 10px 10px rgba(121, 14, 163, 0.363);
+        }
+        .image {
+            cursor: pointer;
+        }
+        .link {
+            list-style: none;
+        }
+        .link li {
+            display: inline-block;
+            padding: 10px 40px;
+            background-color: rgba(20, 112, 134, 0.2);
+            border-radius: 0px;
+            font-size: 10px;
+        }
+        .link li a {
+            transition: all 0.3s ease 0s;
+            color: rgba(20, 112, 134, 1);
+        }
+        .link li a:hover {
+            color: rgba(197, 17, 17, 0.527);
+            padding: 14px 14px;
+        }
+        button {
+            padding: 9px 25px;
+            background-color: rgba(20, 112, 134, 1);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            cursor: not-allowed;
+        }
+        button:hover {
+            background-color: rgba(121, 14, 163, 0.5)
+        }
+        header a img {
+            height: 68px;
+            width: 68px;
+
+        }
+        .image:hover {
+            height: 80px;
+            width: 80px;
+        }
+        h4 {
+            color: black;
+            font-family: "Matemasie", system-ui;
+            font-size: 50px;
+            font-weight: bold;
+            font-style: normal;
+            padding: 0px 8px;
+            margin-bottom: 8px;
+        }
+        .head h1 {
+            font-size: 20px;
+            font-family: "Matemasie", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+        }
+        .head h1:hover {
+            color: rgba(20, 112, 134, 1);
+            cursor: context-menu;
+            font-family: "New Amsterdam", sans-serif;
+            font-size: 30px;
+        }
+        header {
+            background-color: rgba(27, 20, 28, 1);
+            padding: 20px 10px;
+        }
+        .search {
+            border: none;
+            padding: 8px 18px;
+            font-size: 20px;
+            line-height: 20px;
+            border-radius: 20px;
+            font-family: "New Amsterdam", sans-serif;
+        }
+        .search:focus {
+            outline: none;
+        }
+        .body {
+            display: flexbox;
+            align-items: center;
+            width: 50%;
+            padding-top: 80px;
+            padding-left: 30px;
+        }
+        .h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 40px;
+            color: whitesmoke;
+            padding-bottom: 20px;
+        }
+        .h3One {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 25px;
+            color: whitesmoke;
+            padding-bottom: 20px;
+        }
+        .body p {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+            font-size: 20px;
+            color: whitesmoke;
+            font-style: italic;
+            text-align: justify;
+            padding-bottom: 20px;
+        }
+        .h3:hover {
+            color: rgba(235, 196, 69, 1);
+        }
+        /* Tv Model Design */
+        .outer {
+            padding: 60px 60px;
+            background-color: rgba(27, 20, 28, 1);
+        }
+        .tv {
+            border-top: 28px solid rgba(235, 196, 69, 1);
+            border-right: 8px solid rgba(235, 196, 69, 1);
+            border-bottom: 28px solid rgba(235, 196, 69, 1);
+            border-left: 8px solid rgba(235, 196, 69, 1);
+            border-radius: 90px;
+            padding: 1px 1px;
+            background-color:  rgba(235, 196, 69, 1);
+            display: flex;
+            justify-items: center;
+            justify-content: space-evenly;
+            box-shadow: 40px 50px rgba(148, 148, 148, 0.644);
+        }
+        .guy {
+            display: flex;
+            height: 600px;
+            width: 85%;
+            background-color: rgba(117, 170, 10, 0.932);
+            border-radius: 90px;
+        }
+        .guy a img {
+            padding-left: 4px;
+            height: 500px; 
+            width: 500px;
+        }
+        .guy a img:hover {
+            padding-left: 4px;
+            height: 550px; 
+            width: 550px;
+        }
+        .guy p {
+            text-align: justify;
+            padding-top: 150px;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 20px;
+            font-style: italic;
+            text-indent: 50px;
+        }
+        .hidden {
+            background-image: url(./Image/Peter/no\ signal\ .jpeg);
+        }
+        .f {
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flexbox;
+            justify-content: center;
+            background-color: rgba(235, 196, 69, 1);
+            border-radius: 0px 90px 90px 0px;
+            padding-top: 80px;
+        }
+        .s {
+            padding-right: 10px;
+            display: flexbox;
+            justify-content: center;
+            padding-top: 30px;
+        }
+        .f button {
+            color: black;
+            align-content: center;
+            border: 2px solid black;
+            border-radius: 50%;
+            height: 54px;
+            width: 54px;
+            cursor: pointer; 
+            background-color: rgb(4, 153, 219);
+            box-shadow: 5px 6px 1px rgba(27, 20, 28, 1);
+        }
+        .f button:hover {
+            height: 60px;
+            width: 60px;
+        }
+        .s button {
+            color: black;
+            align-content: center;
+            border: 2px solid black;
+            border-radius: 50%;
+            height: 54px;
+            width: 54px;
+            cursor: pointer; 
+            background-color: rgb(4, 153, 219);
+            box-shadow: 5px 6px 1px rgba(27, 20, 28, 1);
+        }
+        .s button:hover {
+            height: 60px;
+            width: 60px;
+        }
+        .tvTriangle {
+            display: flex;
+            justify-content: center;
+            font-size: 28px;
+        }
+        .f button:hover .tvTriangle {
+            font-size: 34px;
+        }
+        .s button:hover .tvTriangle {
+            font-size: 34px;
+        }
+        @font-face {
+            font-family: digitalClock;
+            src: url(./Font/DS-DIGI.TTF);
+        }
+        .digital {
+            font-family: digitalClock,sans-serif;
+            font-size: 38px;
+            font-weight: 500;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.950);
+            color: rgb(0, 128, 0);
+            text-align: center;
+            padding: 10px 15px;
+            margin-top: 80px;
+            border-radius: 15px;
+            box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.747),
+                        8px 8px 2px rgba(0, 0, 0, 0.849);
+            border: 3px solid rgba(192, 192, 192, 0.863);
+        }
+        /* Main Characters Content */
+        .outerCharacters {
+            background-color: rgb(27, 20, 28);
+            display: flexbox;
+            justify-content: center;
+            padding: 100px 0px;
+            height: 1200px;
+
+        }
+        .characters {
+            padding: 50px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .characters h1 {
+            font-family: "Griffy", system-ui;
+            font-weight: 400;
+            color: whitesmoke;
+            font-size: 80px;
+            text-transform: uppercase;
+            background: linear-gradient(120deg, rgb(4, 153, 219) 16%,transparent 20%,transparent 20%, rgb(235, 196, 69) 20%,rgb(235, 196, 69) 36%, transparent 40%,transparent 40%, rgb(4, 153, 219) 40%,rgb(4, 153, 219) 56%, transparent 60%,transparent 60%,rgb(235, 196, 69) 60%, rgb(235, 196, 69) 76%, transparent 80%, transparent 80%, rgb(4, 153, 219) 80% );
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            border: 4px solid whitesmoke;
+            background-color: whitesmoke;
+            box-shadow: 10px 5px whitesmoke, -10px -5px whitesmoke, -10px 5px whitesmoke, 10px -5px whitesmoke;
+        }
+        .characters h1:hover {
+            font-size: 90px;
+        }
+        .OutCBox div img {
+            height: 380px;
+            width: 250px;
+            padding-bottom: 20px;
+        }
+        .OutCBox {
+            display: flex;
+            padding: 50px;
+        }
+        .OutCBox div {
+            background-color: whitesmoke;
+            border: 2px solid whitesmoke;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        .OutCBox div a h4 {
+            color: black;
+            font-family: "Matemasie", system-ui;
+            font-size: 50px;
+            font-weight: bold;
+            font-style: normal;
+            background-color: rgb(235, 196, 69);
+            border-radius: 10px;
+        }
+        .OutCBox div a h4:hover {
+            text-decoration: none;
+            color: rgb(7, 96, 134);
+        }
+        .OutCBox div:first-child {
+            display: flexbox;
+        }
+        .OutCBox div:nth-child(2) {
+            display: flexbox;
+        }
+        .OutCBox div:nth-child(3) {
+            display: flexbox;
+        }
+        .OutCBox div:nth-child(3) img {
+            height: 350px;
+            padding-bottom: 30px;
+        }
+        .OutCBox div:nth-child(4) {
+            display: flexbox;
+        }
+        .OutCBox div p {
+            padding: 10px;
+            padding-bottom: 10px;
+            font-style: italic;
+        }
+        /* Footer */
+        /* UpperFooter */
+        .upperFooter {
+            height: 300px;
+            width: 100%;
+            padding: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .upperFooter  div:first-child {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 600px;
+        }
+        .upperFooter  div:first-child h1 {
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 400;
+            text-decoration: underline rgba(103, 92, 199, 0.877);
+            width: 200px;
+        }
+        .upperFooter  div:first-child h1 .UFIcon {
+            font-size: 100px;
+            color: rgba(103, 92, 199, 0.877);
+            font-family: "Asap Condensed", sans-serif;
+            font-weight: 800;
+            font-style: normal
+        }
+        .upperFooter div:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .upperFooter div:nth-child(2) button {
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            background-color: rgb(230, 178, 8);
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .upperFooter div:nth-child(2) button .UFIcon {
+            font-size: 80px;
+            color: rgba(103, 92, 199, 0.877);
+        }
+        .upperFooter div:nth-child(2) button:hover {
+            height: 150px;
+            width: 150px;
+        }
+        /* LowerFooter */
+        .lowerFooter {
+            background-color: rgba(0, 0, 0, 1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 300px;
+        }
+        .lowerFooter div:first-child {
+            width: 250px;
+            flex-grow: 0.2;
+        }
+        .lowerFooter div:first-child h1 {
+            color: whitesmoke;
+            font-size: 50px;
+            font-weight: bold;
+            padding-left: 50px;
+            font-family: "Asap Condensed", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+        .lowerFooter div:nth-child(2) {
+            padding: 80px 50px;
+            display: flexbox;
+            align-items: center;
+        }
+        .lowerFooter div:nth-child(2) h5 {
+            font-size: 50px;
+            color: whitesmoke;
+            display: flex;
+            justify-content: end;
+            padding: 4px;
+            font-family: "Asap Condensed", sans-serif;
+            font-weight: 800;
+            font-style: italic;
+        }
+        .lowerFooter div:nth-child(2) h5 .LFIcon {
+            display: flex;
+            color: rgba(255, 196, 0, 0.767);
+
+            padding: 5px 5px;
+            font-size: 20px;
+        }
+        .lowerFooter div:nth-child(2) h5 .LFIcon:hover {
+            font-size: 25px;
+        }
+        Footer p {
+            background-color: black;
+            color: whitesmoke;
+            padding: 0px 50px;
+            padding-bottom: 30px;
+            font-family: "Asap Condensed", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+     </style>
+    <!-- JavaScript -->
+    <script>
+        var go = 1;
+          window.onload = function() {
+           nu(go);
+          };
+          function number(n){
+              go += n;
+              console.log(go);
+              if (go <= 0) {
+                  go = 8;
+              } 
+              else if (go >= 9) {
+                  go = 1;
+              }
+              document.querySelector('.digital').innerText = go.toString().padStart(2, '0');
+              nu(go);
+          }
+          function nu(n) {
+              const a = document.getElementById('2');
+              const b = document.getElementById('3');
+              const c = document.getElementById('4');
+              switch(n){
+                  case 1:
+                      a.style.display = 'flex';
+                      b.style.display = 'flex';
+                      c.style.display = 'none';
+                  break;
+                  default:
+                      a.style.display = 'none';
+                      b.style.display = 'none';
+                      c.style.display = 'flex';
+                  break;
+              }
+          }
+    </script>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <header>
+      <div class="head" >
+      <a href="#"><img class="image" src="./Image/PeterIcon.svg" alt="logo" /></a>
+      <h1> Peter Griffin </h1>
+      <h4> | </h4>
+      <nav>
+        <ul class="link">
+          <li><a href="Peter Griffin.html"><i class="bi bi-house-fill icons"></i> Home </a></li>
+          <li><a href="#"><i class="bi bi-box-fill"></i> Product </a></li>
+          <li><a href="#"><i class="bi bi-android"></i> Services </a></li>
+          <li><a href="#"><i class="bi bi-gear-fill"></i> About </a></li>
+        </ul>
+      </nav>
+      <h4> | </h4>
+      <input type="text" placeholder="Search....." class="search" >
+      <h4> | </h4>
+      <nav>
+        <a href="#"><button><i class="bi bi-door-open-fill"></i>Sign In</button></a>
+      </nav>
+    </header>
+    <!-- Content for Peter Griffin -->
+    <div class="outerBody" >
+      <div class="body" >
+        <a href="https://en.wikipedia.org/wiki/Peter_Griffin" target="_blank" > 
+      <h3 class="h3" > Peter Griffin</h3></a> 
+      <h3 class="h3One">Fictional character</h3>
+      <p>Peter is married to Lois and is the father of Meg, Chris, and Stewie. He also has a dog named Brian, with whom he is best friends. He has worked at a toy factory and at Quahog's Brewery. Peter's voice was inspired by the security guards that MacFarlane heard at his school. His appearance was a redesign of the protagonist Larry from MacFarlane's previous animated short films The Life of Larry and Larry & Steve. He has appeared in several pieces of Family Guy merchandise—including toys, T-shirts, and video games—and he has made crossover appearances in other shows, including The Simpsons, Drawn Together, American Dad!, South Park, and Family Guy's spin-off series The Cleveland Show.</p>
+    </div>
+  </div>
+  <!-- Tv Model -->
+  <div class="outer" >
+    <div class="tv" >
+      <div class="guy" id="1">
+        <a class="chanel01" id="2" href="https://en.wikipedia.org/wiki/Family_Guy" target="_blank" ><img src="./Image/PeterWebIcons.svg" alt="Family Guy" ></a>
+        <p class="chanel02" id="3" >&nbsp;Family Guy is an American animated sitcom created by Seth MacFarlane for the Fox Broadcasting Company. The series premiered on January 31, 1999, following Super Bowl XXXIII, with the rest of the first season airing from April 11, 1999. The show centers around the Griffins, a dysfunctional family consisting of parents Peter and Lois, their children, Meg, Chris, and Stewie, and their anthropomorphic pet dog, Brian. Set in the fictional city of Quahog, Rhode Island, the show exhibits much of its humor in the form of metafictional cutaway gags that often lampoon American culture.</p>
+        <img class="chanel03" id="4" src="./Image/NoSignal.png" alt="" height="600px" width="1029.365px">
+    </div>
+      <div class="f" ><button value="button" onclick="number(-1)" ><i class="bi bi-caret-up-fill tvTriangle"></i></button>
+      <div class="s" ><button value="button" onclick="number(+1)" ><i class="bi bi-caret-down-fill tvTriangle"></i></button>
+    <h1 class="digital" >00</h1>
+    </div>
+    </div>
+    </div>
+  </div>
+  <!-- characters -->
+   <div class="outerCharacters" >
+    <div class="characters" >
+      <h1> Main Characters </h1>
+    </div>
+    <div class="OutCBox" >
+      <div>
+        <img src="./Image/Lois Griffin.png" alt=" Lois Griffin ">
+        <a href="https://en.wikipedia.org/wiki/Lois_Griffin"><h4> Lois Griffin </h4></a>
+        <p>Lois is the mother and matriarch of the Griffin family. She and her husband, Peter, have three children: Meg, Chris, and Stewie, along with the family dog, Brian. Lois is often portrayed as a stereotypical television mother and housewife.</p>
+      </div>
+      <div>
+        <img src="./Image/Meg Griffin.png" alt=" Meg Griffin ">
+        <a href="https://en.wikipedia.org/wiki/Meg_Griffin"><h4> Meg Griffin </h4></a>
+        <p>Meg first appeared on television, along with the rest of the Griffin family, in the episode "Death Has a Shadow" on January 31, 1999. Meg did not appear in these shorts and was only created after Fox picked up the show.</p>
+      </div>
+      <div>
+        <img src="./Image/Stewie Griffin .png" alt=" Stewie Griffin ">
+        <a href="https://en.wikipedia.org/wiki/Stewie_Griffin"><h4> Stewie Griffin </h4></a>
+        <p>Stewie is a highly precocious toddler who talks and acts as an adult. He began the series as a megalomaniacal sociopath, initially obsessed with violence, matricide, and world domination. He is the third child of Peter and Lois Griffin, the youngest brother of Meg, and the younger brother of Chris.</p>
+      </div>
+      <div>
+        <img src="./Image/Brian Griffin.png" alt=" Brian Griffin ">
+        <a href="https://en.wikipedia.org/wiki/Brian_Griffin"><h4> Brian Griffin </h4></a>
+        <p>Brian Griffin is a fictional character from the American animated sitcom Family Guy. He is one of the main characters of the series and a member of the Griffin family. Created, designed, and voiced by Seth MacFarlane, he is an anthropomorphic white labrador retriever who is Stewie Griffin's best friend and comic foil with the ability to speak, drive, and stand on two legs.</p>
+      </div>
+    </div>
+  </div>
+  </body>
+  <!-- Footer -->
+  <footer>
+    <div class="upperFooter" >
+      <div>
+        <h1> Contact Us <i class="bi bi-arrow-right UFIcon "></i></h1>
+      </div>
+      <div>
+        <button value="button" ><i class="bi bi-arrow-right UFIcon "></i></button>
+      </div>
+    </div>
+    <div class="lowerFooter" >
+      <div>
+        <h1> The agency for impatient brands@ </h1>
+      </div>
+      <div>
+        <h5> Follow Us </h5>
+        <h5>
+          <a href="#"><i class="bi bi-envelope LFIcon "></i></a>
+          <a href="#"><i class="bi bi-globe-asia-australia LFIcon "></i></a>
+          <a href="#"><i class="bi bi-instagram LFIcon "></i></a>
+          <a href="#"><i class="bi bi-linkedin LFIcon "></i></a>
+        </h5>
+      </div>
+    </div>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; @CopyRight - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolores, consequatur saepe non quibusdam vel molestias qui eaque quis, et temporibus perferendis veritatis dolorem labore? Iste eos exercitationem quos repudiandae.</p>
+  </footer>
+</html>
+
