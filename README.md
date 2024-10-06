@@ -2,7 +2,7 @@
 #I Am the Full Stack Java Developer 
 ---
 ## first Sample Project
-this is a sample page that usied by a html,css and Javascript,this is a Static page
+this is a sample page that usied by a html,css and Javascript,this is a Static page<br>
 you can clone use this url
 [this a repository url]()
 ###### Run localhost
