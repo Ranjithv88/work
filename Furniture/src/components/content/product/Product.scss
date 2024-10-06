@@ -1,0 +1,80 @@
+
+/*--------------------------- Product Components --------------------*/
+.Product{
+    padding: 100px 0;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 205, 205);
+    text-align: center;
+    background:
+    repeating-linear-gradient(
+        to right, transparent 0 150px, rgba(0, 0, 0, 0.067) 150px 151px
+    ),
+    repeating-linear-gradient(
+        to bottom, transparent 0 150px, rgba(0, 0, 0, 0.067) 150px 151px
+    );
+    h1{
+        font-size: 50px;
+        font-family: "griffy",cursive;
+        width: 80vw;
+    }
+    .ProductOuter{
+        padding: 100px 0;
+        width: 80vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat( auto-fill,  minmax(280px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        .ProductList01{
+            height: 68vh;
+            overflow: hidden;
+            text-align: center;
+            background-color: rgb(238, 238, 230);
+            border-radius: 20px;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            padding: 10px;
+            row-gap: 4px;
+            img {
+                z-index: 2;
+                height: 100%;
+                width: 100%;
+                filter: drop-shadow(0px 80px 30px rgba(0, 0, 0, 0.467));
+                cursor: pointer;
+            }
+            h1{
+                font-size: 25px;
+                width: 80%;
+                font-family: "Karantina",sans-serif;
+            }
+            h2{
+                font-size: 25px;
+                font-family: "Griffy",cursive;
+            }
+            button{
+                font-family: "BebasNeue",sans-serif;
+                border: none;
+                padding: 10px;
+                font-size: 20px;
+                border-radius: 20px;
+                cursor: pointer;
+                background-color: rgba(0, 0, 0, 0.9);
+                color: rgba(255, 255, 255, 0.9);
+            }
+            button:hover{
+                background-color: rgba(0, 0, 0, 1);
+            }
+        }
+    }
+    p{
+        font-size: 20px;
+        font-family: "BebasNeue",serif;
+        width: 80vw;
+    }
+}
+

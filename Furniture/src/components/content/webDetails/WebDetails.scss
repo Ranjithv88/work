@@ -1,0 +1,75 @@
+
+/*--------------------------- WebDetails Components --------------------*/
+.WebDetails{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color: rgb(236, 240, 243);
+    .WebDetailsOuter{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+        column-gap: 40px;
+        padding-right: 100px;
+        width: 70vw;
+        .Web{
+            font-family: "Oswald",sans-serif;
+            display: grid;
+            align-items: center;
+            span{
+                font-size: 40px;
+                display: flex;
+                overflow: hidden;
+                .WhyIcon{
+                    z-index: 2;
+                }
+                h5{
+                    position: relative;
+                    right: 20px;
+                    top: 10px;
+                    border-radius: 50%;
+                    background-color: rgb(205, 205, 205);
+                    font-size: 20px;
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+            h1{
+                font-size: 22px;
+            }
+            p{
+                font-size: 12px;
+                font-family: "Pacifico",sans-serif;
+            }
+        }
+        .Details01{
+            grid-column: span 2;
+            h1{
+                font-size: 30px;
+            }
+        }
+        button{
+            border: none;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: rgba(255, 255, 255, 0.9);
+            font-family: "BebasNeue",sans-serif;
+        }
+        button:hover{
+            background-color: rgba(0, 0, 0, 1);
+        }
+    }
+    img{
+        border-radius: 38px;
+        transform: scale(0.8);
+        box-shadow: inset 2px 2px 10px rgb(0, 0, 0),
+                2px 2px 10px rgb(0, 0, 0);
+    }
+}
+

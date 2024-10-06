@@ -1,0 +1,56 @@
+
+/*--------------------------- NavBar Components --------------------*/
+header{
+    height: 10vh;
+    nav{
+        background-color: rgb(59, 93, 79);
+        height: 10vh;
+        width: 100vw;
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 30px;
+        font-size: 20px;
+        position: fixed;
+        cursor: default;
+        font-family: "Inter",serif;
+        z-index: 5;
+        h1{
+           font-family: "Griffy",cursive;
+        }
+        .Menu{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 18px;
+            .nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-right: 20px;
+                li{
+                    padding: 0px 8px;
+                    cursor: pointer;
+                }
+                li:hover{
+                    font-size: 20px;
+                    text-decoration: underline 5px rgb(253, 188, 58);
+                }
+            }
+            .profile{
+                font-size: 25px;
+                cursor: pointer;
+                span{
+                    padding: 0px 8px;
+                    color: rgb(255, 255, 255)
+                }
+                span:hover {
+                    color: rgb(253, 188, 58);
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+

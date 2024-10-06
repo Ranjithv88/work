@@ -1,0 +1,47 @@
+
+/*--------------------------- Blog Components --------------------*/
+.Blog{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(236, 240, 243);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 40px 40px;
+    font-family: "BebasNeue",sans-serif;
+    h1{
+        grid-column: span 2;
+        padding-left: 20px;
+    }
+    a{
+        padding-right: 20px;
+        text-decoration: 1px underline rgb(0, 0, 0);
+        text-align: end;
+    }
+    a:hover{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .BlogContent{
+        display: grid;
+        row-gap: 5px;
+        font-family: cursive;
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.8s;
+        }
+        img:hover{
+            filter: opacity(0.6);
+        }
+        h3{
+            padding-left: 20px;
+            span{
+                color: rgba(0, 0, 0, 0.6);
+            }
+        }
+    }
+}
+

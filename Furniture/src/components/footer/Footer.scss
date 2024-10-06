@@ -1,0 +1,164 @@
+
+/*--------------------------- footer Components --------------------*/
+footer{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    transition: 0.8s;
+    .Empty{
+        height: 25vh;
+        width: 100vw;
+        background-color: rgb(236, 240, 243);
+        z-index: 1;
+    }
+    .FooterContent01{
+        display: flex;
+        justify-content: space-between;
+        height: 25vh;
+        padding: 22px 0;
+        width: 84vw;
+        overflow: visible;
+        .foo01{
+            display: grid;
+            grid-template-columns: 2fr 2fr 1fr;
+            gap: 10px;
+            column-gap: 12px;
+            h1{
+                padding-top: 10px;
+                grid-column: span 3;
+                font-size: 24px;
+                color: rgb(59, 93, 91);
+                .FIcon01{
+                    color: rgba(0, 0, 0, 0.5);
+                    font-weight: bold;
+                    font-size: 28px;
+                    text-align: center;
+                    padding-top: 10px;
+                    height: 35px;
+                    width: 35px;
+                }
+            }
+            input{
+                height: 50px;
+                width: 250px;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                border-radius: 10px;
+                padding-left: 10px;
+                font-size: 14px;
+            }
+            input:focus{
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                outline: none;
+            }
+            button{
+                border: none;
+                height: 50px;
+                width: 100px;
+                border-radius: 10px;
+                font-size: 32px;
+                text-align: center;
+                background-color: rgba(49, 77, 67, 0.95);
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+            }
+            button:hover{
+                 background-color: rgb(49, 77, 67);
+            }
+        }
+    }
+    img{
+        height: 55vh;
+        width: 55vh;
+        position: relative;
+        bottom: 24vh;
+        z-index: 2;
+    }
+    .FooterContent02{
+        height: 40vh;
+        width: 84vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        .foo02{
+            width: 34vw;
+            display: grid;
+            align-items: center;
+            row-gap: 10px;
+            padding-right: 20px;
+            h1{
+                color: rgb(59, 93, 91);
+                cursor: default;
+            }
+            p{
+                color: rgba(0, 0, 0, 0.5);
+                font-family: "Pacifico",cursive;
+                font-size: 1.8vh;
+            }
+            .Follow{
+                padding: 5px;
+                button{
+                    padding: 10px 14px;
+                    margin: 0 5px;
+                    border: none;
+                    border-radius: 50%;
+                    font-size: 3.5vh;
+                    background-color: rgba(59, 93, 80, 0.5);
+                    color: rgba(59, 93, 80, 0.5);
+                    cursor: pointer;
+                }
+                button:hover{
+                    background-color: rgb(59, 93, 80);
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+        .foo02D2{
+            width: 50vw;
+            display: grid;
+            align-items: center;
+            gap: 10px;
+            grid-template-columns: repeat(4,1fr);
+            justify-items: start;
+            a{
+                width: fit-content;
+                font-family: "Oswald",sans-serif;
+            }
+            a:hover{
+                color: rgba(0, 0, 0, 0.5);
+            }
+            .fa{
+                grid-column: span 2;
+            }
+        }
+    }
+    .FooterContent03{
+        height: 10vh;
+        width: 84vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-size: 2.5vh;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        a{
+            color: rgba(0, 0, 0, 1);
+        }
+        a:hover{
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .FLastA{
+            a{
+                padding: 0 12px;
+            }
+            a:hover{
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
+

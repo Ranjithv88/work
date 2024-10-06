@@ -1,0 +1,52 @@
+
+/*--------------------------- miniDetails div Css properties --------------------*/
+.miniDetails{
+    padding: 60px 0px;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: rgb(236, 240, 243);
+    .MiniContent{
+        margin: 0 20px;
+        width: 30vw;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        row-gap: 2px;
+        align-items: center;
+        font-family: "Inter",sans-serif;
+        img{
+            height: 100%;
+            width: 100%;
+            grid-row: span 2;
+            background-color: rgb(220, 229, 228);
+            border-radius: 100px;
+            overflow: visible;
+        }
+        h1{
+            padding: 0 5px;
+            font-size: 20px;
+            font-family: "Merriweather",sans-serif;
+        }
+        p{
+            padding: 0 10px;
+        }
+        a{
+            grid-column: span 2;
+            text-align: center;
+            font-family: "BebasNeue",sans-serif;
+            font-size: 16px;
+            padding: 5px;
+        }
+        a:hover::after{
+            content: " >";
+            font-size: 16px;
+        }
+        a:hover{
+            color: rgb(22, 99, 159);
+            padding: 5px 0px;
+        }
+    }
+}
+

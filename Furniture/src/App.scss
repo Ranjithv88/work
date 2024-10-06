@@ -1,0 +1,62 @@
+
+/*------------- All Elements -------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    a {
+        text-decoration: none;
+        color: rgb( 0, 0, 0);
+    }
+    ul {
+        list-style: none;
+    }
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+}
+
+/*--------------------------- Google Fonts ( Anton,BebasNeue,Griffy,Inter,Karantina,Matemasie,Merriweather,Oswald,Pacifico,Poppins ) --------------------*/
+@font-face {
+    font-family: Anton;
+    src: url(./assets/fonts/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(./assets/fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: Griffy;
+    src: url(./assets/fonts/Griffy-Regular.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-Italic-VariableFont.ttf);
+}
+@font-face {
+    font-family: Karantina;
+    src: url(./assets/fonts/Karantina-Bold.ttf);
+}
+@font-face {
+    font-family: Matemasie;
+    src: url(./assets/fonts/Matemasie-Regular.ttf);
+}
+@font-face {
+    font-family: Merriweather;
+    src: url(./assets/fonts/Merriweather-Black.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(./assets/fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Pacifico;
+    src: url(./assets/fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(./assets/fonts/Poppins-Black.ttf);
+}
+
