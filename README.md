@@ -1,5 +1,5 @@
 # My Name is Ranjith Kumar
-#I Am the Full Stack Java Developer 
+# I Am the Full Stack Java Developer 
 ---
 ## first Sample Project
 this is a sample page that usied by a html,css and Javascript,this is a Static page<br>
@@ -31,13 +31,13 @@ clone the repository url is given below<br>
 <u>Step 2</u>
 open the folder to select the Peter Griffin.html file in your browser<br>
 <u>Step 3</u><br>
-###Commants
+### Commants
 change tha folder location ,commands given below<br>
-####cd ./<u>project location</u>
+#### cd ./<u>project location</u>
 install react packages commands given below<br>
-####npm Install 
+#### npm Install 
 run localhost in commands given below (localhost:5173) and than i am using a vite Compiler <br>
-####npm run dev
+#### npm run dev
 ###### sample page 
 [this is breaken Image]()
 ###### live demo
