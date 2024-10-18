@@ -4,30 +4,30 @@
 ## first Sample Project
 this is a sample page that usied by a html,css and Javascript,this is a Static page<br>
 you can clone use this url<br>
-[this a repository url]()<br>
+[this a repository url](https://github.com/Ranjithv88/work)<br>
 ###### Run localhost
 Run the program in your computer use this step by step process<br>
 <u>Step 1</u>
 clone the repository url is given below<br>
-[this a repository url]()<br>
+[this a repository url](https://github.com/Ranjithv88/work)<br>
 <u>Step 2</u>
 open the folder to select the Peter Griffin.html file in your browser<br>
 <u>Step 3</u>
 and view my template <br>
 ###### sample page 
-[this is breaken Image]()<br>
+[this is breaken Image](https://github.com/Ranjithv88/work/blob/master/Peter%20Griffin/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)<br>
 ###### live demo
 [this is live Demo Url ]()<br>
 ---
 ## Second Sample Project
 this React project and this a diamond page ,i am using a vite Compiler for this project <br>
 you can clone use this url<br>
-[this a repository url]()<br>
+[this a repository url](https://github.com/Ranjithv88/work)<br>
 ###### Run localhost
 Run the program in your computer use this step by step process<br>
 <u>Step 1</u>
 clone the repository url is given below<br>
-[this a repository url]()<br>
+[this a repository url](https://github.com/Ranjithv88/work)<br>
 <u>Step 2</u>
 open the folder to select the Peter Griffin.html file in your browser<br>
 <u>Step 3</u><br>
