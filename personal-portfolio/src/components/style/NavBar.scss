@@ -1,0 +1,68 @@
+
+/*--------------------------- NavBar Components --------------------*/
+header{
+    nav{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 32px;
+        position: fixed;
+        width: 100vw;
+        height: 12vh;
+        z-index: 20;
+        .name{
+            width: 14vw;
+            h1{
+                font-size: 25px;
+                text-align: center;
+                cursor: default;
+            }
+        }
+        .menu{
+            .menuList{
+                display: flex;
+                gap: 18px;
+                li{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .intro{
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        .profile{
+            position: absolute;
+            top: 40%;
+            left: 12%;
+            width: 40vw;
+            padding: 2px;
+            display: grid;
+            row-gap: 10px;
+            p{
+                text-align: justify;
+            }
+            button{
+                border-radius: 10px;
+                border: 2px solid rgb(255, 255, 255);
+                padding: 7px 10px;
+                margin: 5px;
+                width: fit-content;
+                font-size: 20px;
+                cursor: pointer;
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                transition: 0.8s;
+            }
+            button:hover{
+                background-color: rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+}
+

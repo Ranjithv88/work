@@ -1,0 +1,54 @@
+
+/*--------------------------- Footer Components --------------------*/
+footer{
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 40px 0px;
+    .FTitle{
+        font-size: 40px;
+        padding: 20px 100px;
+    }
+    .FContent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10vw;
+        .FOne{
+            width: 50vw;
+            p{
+                text-align: justify;
+                font-size: 20px;
+            }
+            h4{
+                font-size: 25px;
+                padding: 5px 0px;
+            }
+            h5{
+                font-size: 20px;
+            }
+        }
+        .FTwo{
+            width: 20vw;
+            h1{
+                padding: 10px 0px;
+                text-align: end;
+            }
+            .FIcon{
+                overflow: hidden;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                a{
+                    color: rgb(255, 255, 255);
+                    font-size: 30px;
+                    padding: 5px;
+                }
+                a:hover{
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+}
+

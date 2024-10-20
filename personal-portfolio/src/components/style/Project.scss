@@ -1,0 +1,47 @@
+
+/*--------------------------- Project Components --------------------*/
+.Project{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    .ProjectTitle{
+        font-size: 40px;
+        text-align: center;
+    }
+    .ProjectOuter{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat( auto-fill,  minmax(280px, 1fr));
+    gap: 20px;
+        div{
+            display: grid;
+            height: 60vh;
+            border-radius: 60px;
+            display: grid;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px;
+            h1{
+                font-size: 30px;
+            }
+            h2{
+                font-size: 18px;
+                text-align: start;
+            }
+            p{
+                text-align: justify;
+                font-size: 15px;
+            }
+            a{
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+            a:hover{
+                color: rgb(0, 120, 212);
+            }
+        }
+    }
+}
+

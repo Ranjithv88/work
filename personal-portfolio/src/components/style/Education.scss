@@ -1,0 +1,24 @@
+
+/*--------------------------- Education Components --------------------*/
+.Education{
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: grid;
+    row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    .EducationTitle{
+        text-align: center;
+        font-size: 40px;
+        padding: 40px 0px;
+    }
+    div{
+        width: 80vw;
+        height: 20vh;
+        p{
+            text-align: justify;
+        }
+    }
+}
+
