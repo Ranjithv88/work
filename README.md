@@ -17,7 +17,7 @@ and view my template <br>
 ### Live Demo : <https://ranjithv88.github.io/Peter-Griffin--Templates/>
 ### Sample ScreenShoot 
 ###### Peter Griffin WebSites Home Page <br>
-![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Peter-Griffin-%20Templates/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)
+![](https://raw.githubusercontent.com/Ranjithv88/Peter-Griffin--Templates/refs/heads/master/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)
 ---
 ## Furniture Sample Website Template Project
 this React project and this a diamond page ,i am using a vite Compiler for this project <br>
