@@ -13,8 +13,8 @@ This project is created using React.js. It is a dynamic website for a furniture 
 
 # Run LocalHost
 
-#### `npm Create vite@latest`<br>
-this command using create brand new vite+React Application <br>
+#### `git Clone "https://github.com/Ranjithv88/Furniture--Templates"` <br> 
+this command use to clone your local pc
 
 #### `cd ./Project_Name`<br>
 this Command use to **Chage Diractory** to your file Location <br>
@@ -29,7 +29,7 @@ this command using to run vite React project and this project run url **(Localho
 ##### My Name is the Ranjith Kumar & I Am the Full Stack Java Developers & I'm the BCA (Bachelor of Computer Applications) Degree Holder & location : Coimbatore 
 
 # Links 
-<img width="28" height="28" src="https://img.icons8.com/ios/50/repository.png" alt="repository"/> GitHub Repository Url : <https://github.com/Ranjithv88/Furniture--Templates> <br>
+<img width="28" height="28" src="https://img.icons8.com/ios/50/repository.png" alt="repository"/> This GitHub Repository Url : <https://github.com/Ranjithv88/Furniture--Templates> <br>
 <img width="28" height="28" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/> GitHub : <https://github.com/Ranjithv88/> <br>
 <img width="28" height="28" src="https://img.icons8.com/bubbles/50/gmail-new.png" alt="gmail-new"/> GMail : <RanjithKumar22445588@gmail.com> <br>
 <img width="28" height="28" src="https://img.icons8.com/fluency/50/instagram-new.png" alt="instagram-new"/> Instagram : <https://instagram.com/ranjith_kumar__v> <br>
