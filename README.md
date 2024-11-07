@@ -17,9 +17,9 @@ and view my template <br>
 ### Live Demo : <https://ranjithv88.github.io/Peter-Griffin--Templates/>
 ### Sample ScreenShoot 
 ###### Peter Griffin WebSites Home Page <br>
-![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Peter%20Griffin/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)
+![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Peter-Griffin-%20Templates/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)
 ---
-## Second Sample Project
+## Furniture Sample Website Template Project
 this React project and this a diamond page ,i am using a vite Compiler for this project <br>
 you can clone use this url<br>
 `https://github.com/Ranjithv88/Furniture--Templates.git` <br> 
@@ -40,8 +40,28 @@ run localhost in commands given below (localhost:5173) and than i am using a vit
 #### npm run dev
 ### Live Demo : <https://github.com/Ranjithv88/Furniture--Templates.git>
 ### Sample ScreenShoot 
-###### Peter Griffin WebSites Home Page <br>
-![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Peter%20Griffin/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)
+###### Furniture E-Commerce WebSites Home Page <br>
+![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Furniture--Templates/ScreenShot/Furniture%20Home%20sample%20.png)
+###### Furniture E-Commerce WebSites LogIn Page <br>
+![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Furniture--Templates/ScreenShot/Furniture%20LogIn%20page%20sample.png)
+---
+## Web-Animation Project 
+this is a sample page that usied by a html,css and Javascript,this is a Static page<br>
+you can clone use this url<br>
+`https://github.com/Ranjithv88/Web-Animation.git` <br> 
+###### Run localhost
+Run the program in your computer use this step by step process<br>
+<u>Step 1</u>
+clone the repository url is given below<br>
+`git Clone "https://github.com/Ranjithv88/Web-Animation.git"` <br> 
+<u>Step 2</u>
+open the folder to select the Peter Griffin.html file in your browser<br>
+<u>Step 3</u>
+and view my template <br>
+### Live Demo : <https://ranjithv88.github.io/Web-Animation/>
+### Sample ScreenShoot 
+###### Web Animation Website Page <br>
+![](https://github.com/Ranjithv88/work/blob/master/Web-Animation/screenshot/Web-Animaton%20ScreenShot.png)
 ---
 # Follow Us
 ---
