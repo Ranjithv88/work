@@ -8,6 +8,7 @@
     justify-content: space-evenly;
     padding: 100px;
     background-color: rgb(236, 240, 243);
+    overflow-y: hidden;
     .WebDetailsOuter{
         display: grid;
         grid-template-columns: repeat(2,1fr);
