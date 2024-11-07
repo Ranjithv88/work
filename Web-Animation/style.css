@@ -1,0 +1,158 @@
+
+/********** web animation Website CSS **********/
+/********** All Element properties **********/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/********** Fonts(Oswald, Itim, GreatVibes) properties **********/
+@font-face {
+    font-family: "Oswald";
+    src: url('./assets/Oswald.ttf');
+}
+@font-face {
+    font-family: "Itim";
+    src: url('./assets/Itim.ttf');
+}
+@font-face {
+    font-family: "GreatVibes";
+    src: url('./assets/GreatVibes.ttf');
+}
+
+/********** Content CSS properties **********/
+body{
+    overflow: hidden;    
+    .body{
+        background-image:
+        repeating-linear-gradient(
+            to right, transparent 0 150px, rgba(0, 0, 0, 0.067) 150px 151px
+        ),
+        repeating-linear-gradient(
+            to bottom, transparent 0 150px, rgba(0, 0, 0, 0.067) 150px 151px
+        ),
+        linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+        url('./assets/Background\ Image.png');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(205, 205, 205, 1);
+        font-family: "Oswald", serif;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        position: relative;
+        /********** NavBar CSS properties **********/
+        header{
+            padding: 8px 14px;
+            z-index: 2;
+            img{
+                height: 8vh;
+                width: 28vh;
+            }
+            h1{
+                font-size: 25px;
+            }
+            h2{
+                font-size: 16px;
+                font-family: "Itim", cursive;
+            }
+        }
+        /********** Main CSS properties **********/
+        main{
+            z-index: 2;
+            h1{
+                text-align: center;
+                font-size: 60px;
+                font-family: "GreatVibes", cursive;
+            }
+        }
+        /********** Footer CSS properties **********/
+        footer{
+            place-content: end;
+            display: grid;
+            z-index: 2;
+            padding: 20px;
+            /********** Footer QR Code CSS properties **********/
+            .FOne{
+                padding: 2px;
+                h1{
+                    text-align: center;
+                    font-size: 20px;
+                    padding: 2px;
+                    transform: rotateY('180%');
+                }
+                .FOneInner{
+                    z-index: 5;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-image: url('./assets/QR\ Code.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 66% 80%;
+                    height: 130px;
+                    width: 160px;
+                    transition: 1.5s;
+                    a{
+                        scale: 0.5;
+                        opacity: 0;
+                        transition: 1.5s;
+                        background-color: rgba(236, 240, 243, 1);
+                        box-shadow: inset -5px -5px 12px rgba(255, 255, 255, 1),
+                            5px 5px 12px rgba(0,0,0,.16);
+                        padding: 4px;
+                        border-radius: 20px;
+                        font-size: 18px;
+                        text-decoration: none;
+                        color: rgba(0, 0, 0, 1);
+                        img{
+                            height: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+                .FOneInner:hover{
+                    background-image: none;
+                    a{
+                        scale: 1;
+                        opacity: 1; 
+                    }
+                }
+            }
+            /********** Footer Follow Us CSS properties **********/
+            h1{
+                font-size: 20px;
+                padding: 2px;
+            }
+            .FTwo{
+                a{
+                    padding: 15px 4px;
+                    img{
+                        height: 25px;
+                        width: 25px;
+                    }
+                }
+                a:hover{
+                    padding: 14px 3px;
+                    img{
+                        height: 26px;
+                        width: 26px;
+                    }
+                }
+            }
+        }
+    }
+    #dots{
+        position: absolute;
+        background-color: transparent;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        z-index: 4;
+        pointer-events: none;
+    }
+}
+
