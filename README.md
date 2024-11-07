@@ -43,12 +43,12 @@ run localhost in commands given below (localhost:5173) and than i am using a vit
 ###### Peter Griffin WebSites Home Page <br>
 ![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Peter%20Griffin/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)
 ---
-#Follow Us
+# Follow Us
 ---
-# About Me 
+## About Me 
 ##### My Name is the Ranjith Kumar & I Am the Full Stack Java Developers & I'm the BCA (Bachelor of Computer Applications) Degree Holder & location : Coimbatore 
 
-# Links 
+## Links 
 <img width="28" height="28" src="https://img.icons8.com/ios/50/repository.png" alt="repository"/> This GitHub Repository Url : <https://github.com/Ranjithv88/work.git> <br>
 <img width="28" height="28" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/><https://github.com/Ranjithv88/> <br>
 <img width="28" height="28" src="https://img.icons8.com/cotton/28/mail.png" alt="mail"/> <RanjithKumar22445588@gmail.com> <br>
