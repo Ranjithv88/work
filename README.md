@@ -1,33 +1,33 @@
 # My Name is Ranjith Kumar
 # I Am the Full Stack Java Developer 
 ---
-## first Sample Project
+## Peter Griffin Sample Website Template Project 
 this is a sample page that usied by a html,css and Javascript,this is a Static page<br>
 you can clone use this url<br>
-[this a repository url](https://github.com/Ranjithv88/work)<br>
+`https://github.com/Ranjithv88/Peter-Griffin--Templates` <br> 
 ###### Run localhost
 Run the program in your computer use this step by step process<br>
 <u>Step 1</u>
 clone the repository url is given below<br>
-[this a repository url](https://github.com/Ranjithv88/work)<br>
+`git Clone "https://github.com/Ranjithv88/Peter-Griffin--Templates"` <br> 
 <u>Step 2</u>
 open the folder to select the Peter Griffin.html file in your browser<br>
 <u>Step 3</u>
 and view my template <br>
-###### sample page 
-[this is breaken Image](https://github.com/Ranjithv88/work/blob/master/Peter%20Griffin/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)<br>
-###### live demo
-[this is live Demo Url ]()<br>
+### Live Demo : <https://ranjithv88.github.io/Peter-Griffin--Templates/>
+### Sample ScreenShoot 
+###### Peter Griffin WebSites Home Page <br>
+![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Peter%20Griffin/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)
 ---
 ## Second Sample Project
 this React project and this a diamond page ,i am using a vite Compiler for this project <br>
 you can clone use this url<br>
-[this a repository url](https://github.com/Ranjithv88/work)<br>
+`https://github.com/Ranjithv88/Furniture--Templates.git` <br> 
 ###### Run localhost
 Run the program in your computer use this step by step process<br>
 <u>Step 1</u>
 clone the repository url is given below<br>
-[this a repository url](https://github.com/Ranjithv88/work)<br>
+`git Clone "https://github.com/Ranjithv88/Furniture--Templates.git"` <br> 
 <u>Step 2</u>
 open the folder to select the Peter Griffin.html file in your browser<br>
 <u>Step 3</u><br>
@@ -38,8 +38,23 @@ install react packages commands given below<br>
 #### npm Install 
 run localhost in commands given below (localhost:5173) and than i am using a vite Compiler <br>
 #### npm run dev
-###### sample page 
-[this is breaken Image]()
-###### live demo
-[this is live Demo Url ]()
+### Live Demo : <https://github.com/Ranjithv88/Furniture--Templates.git>
+### Sample ScreenShoot 
+###### Peter Griffin WebSites Home Page <br>
+![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Peter%20Griffin/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)
 ---
+#Follow Us
+---
+# About Me 
+##### My Name is the Ranjith Kumar & I Am the Full Stack Java Developers & I'm the BCA (Bachelor of Computer Applications) Degree Holder & location : Coimbatore 
+
+# Links 
+<img width="28" height="28" src="https://img.icons8.com/ios/50/repository.png" alt="repository"/> This GitHub Repository Url : <https://github.com/Ranjithv88/work.git> <br>
+<img width="28" height="28" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/><https://github.com/Ranjithv88/> <br>
+<img width="28" height="28" src="https://img.icons8.com/cotton/28/mail.png" alt="mail"/> <RanjithKumar22445588@gmail.com> <br>
+<img width="28" height="28" src="https://img.icons8.com/fluency/50/instagram-new.png" alt="instagram-new"/><https://instagram.com/ranjith_kumar__v> <br>
+<img width="28" height="28" src="https://img.icons8.com/color/50/linkedin.png" alt="linkedin"/><https://linkedin.com/in/ranjith-kumar-9838a5274> <br>
+<img width="28" height="28" src="https://img.icons8.com/ios-filled/50/codepen.png" alt="codepen"/><https://codepen.io/ranjith-kumar-the-sasster> <br>
+
+---
+
