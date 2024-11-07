@@ -1,35 +1,24 @@
-# Furniture Sample Website Template
-This project is created using React.js. It is a dynamic website for a furniture e-commerce site, featuring a home demo page. The project uses Vite as the compiler, and the frontend is built entirely with React.js, with no backend involved.
+# Peter Griffin Sample Website Template
+This project is a static website created using HTML, CSS, and JavaScript. It is a sample homepage for Peter Griffin.
 
 # WebSites 
-### Live Demo : <https://furniture-templates.vercel.app/>
-<p>this project host by a Vercel Web hosting service Company,Vercel Inc.,formerly ZEIT,is an American cloud platform as a service company. The company maintains the Next.js web development framework.</p>
+### Live Demo : <https://ranjithv88.github.io/Peter-Griffin--Templates/>
+<p>this project host is Github.io , this is using to host the websites for demo purpose .</p>
 
 ### Sample ScreenShoot 
-###### Furniture E-Commerce WebSites Home Page <br>
-![](https://raw.githubusercontent.com/Ranjithv88/Furniture--Templates/refs/heads/master/ScreenShot/Furniture%20Home%20sample%20.png)
-###### Furniture E-Commerce WebSites LogIn Page <br>
-![](https://raw.githubusercontent.com/Ranjithv88/Furniture--Templates/refs/heads/master/ScreenShot/Furniture%20LogIn%20page%20sample.png)
+###### Peter Griffin WebSites Home Page <br>
+![](https://raw.githubusercontent.com/Ranjithv88/Peter-Griffin--Templates/refs/heads/master/ScreenShot/Peter%20Griffin%20Sample%20page%20.png)
 
 # Run LocalHost
 
-#### `git Clone "https://github.com/Ranjithv88/Furniture--Templates"` <br> 
-this command use to clone your local pc
-
-#### `cd ./Project_Name`<br>
-this Command use to **Chage Diractory** to your file Location <br>
-
-#### `npm install`<br>
-this command use to Install project all node module<br>
-
-#### `npm Run Dev`<br>
-this command using to run vite React project and this project run url **(Localhost:5173)** <br>
+#### `git Clone "https://github.com/Ranjithv88/Peter-Griffin--Templates"` <br> 
+this command use to clone your local pc ,open the **index.html** file in you Web Browser ,I recommand to view the Website in Google Chrome <br> 
 
 # About Me 
 ##### My Name is the Ranjith Kumar & I Am the Full Stack Java Developers & I'm the BCA (Bachelor of Computer Applications) Degree Holder & location : Coimbatore 
 
 # Links 
-<img width="28" height="28" src="https://img.icons8.com/ios/50/repository.png" alt="repository"/> This GitHub Repository Url : <https://github.com/Ranjithv88/Furniture--Templates> <br>
+<img width="28" height="28" src="https://img.icons8.com/ios/50/repository.png" alt="repository"/> This GitHub Repository Url : <https://github.com/Ranjithv88/Peter-Griffin--Templates> <br>
 <img width="28" height="28" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/> GitHub : <https://github.com/Ranjithv88/> <br>
 <img width="28" height="28" src="https://img.icons8.com/bubbles/50/gmail-new.png" alt="gmail-new"/> GMail : <RanjithKumar22445588@gmail.com> <br>
 <img width="28" height="28" src="https://img.icons8.com/fluency/50/instagram-new.png" alt="instagram-new"/> Instagram : <https://instagram.com/ranjith_kumar__v> <br>
