@@ -1,0 +1,102 @@
+/*********** Spline-SodaCan Website Styles Property ************/
+
+/*********** All Element ************/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    ul{
+        list-style: none;
+        a{
+            color: rgba(255, 255, 255, 1);
+            text-decoration: none;
+        }
+    }
+}
+
+/*********** Fonts (Pacifico, BebasNeue) ************/
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./assets/Pacifico.ttf');
+}
+
+/*********** Content Element ************/
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: rgba(30, 30, 30, 1);
+    background-color: rgba(205, 205, 205, 1);
+    row-gap: 1vh;
+    background-image:
+    repeating-linear-gradient(
+        to right, transparent 0 150px, rgba(0, 0, 0, 0.067) 150px 151px
+    ),
+    repeating-linear-gradient(
+        to bottom, transparent 0 150px, rgba(0, 0, 0, 0.067) 150px 151px
+    ),
+    linear-gradient(to right, rgba(205, 205, 205, 0.8), rgba(205, 205, 205, 0.8)),
+    url('./assets/Background-Image.jpg');
+    overflow-x: hidden;
+    nav{
+        height: 10vh;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{  
+            text-align: center;
+            font-family: "Pacifico", cursive;
+            font-weight: 800;
+            cursor: default;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        div{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            h4{
+                font-family: cursive;
+                text-align: center;
+                cursor: default;
+            }
+            img{
+                height: 30px;
+                width: 150px;
+            }
+        } 
+    }
+    .model{
+        height: 78vh;
+        width: 95vw;
+        border-radius: 4px;
+    }
+    footer{
+        height: 10vh;
+        width: 20vw;
+        h4{
+            font-family: cursive;
+            text-align: center;
+            cursor: default;
+        }
+        .Foot{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1vh;
+            a{
+                img{
+                    height: 25px;
+                    width: 25px;
+                }
+                img:hover{
+                    height: 28px;
+                    width: 28px;
+                }
+            }
+        }
+    }
+}
+
