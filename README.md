@@ -29,10 +29,10 @@ Run the program in your computer use this step by step process<br>
 clone the repository url is given below<br>
 `git Clone "https://github.com/Ranjithv88/Furniture--Templates.git"` <br> 
 <u>Step 2</u>
-open the folder to select the Peter Griffin.html file in your browser<br>
+open the folder <br>
 <u>Step 3</u><br>
 ### Commants
-change tha folder location ,commands given below<br>
+change the folder location ,commands given below<br>
 #### cd ./<u>project location</u>
 install react packages commands given below<br>
 #### npm Install 
@@ -55,13 +55,31 @@ Run the program in your computer use this step by step process<br>
 clone the repository url is given below<br>
 `git Clone "https://github.com/Ranjithv88/Web-Animation.git"` <br> 
 <u>Step 2</u>
-open the folder to select the Peter Griffin.html file in your browser<br>
+open the folder to select the index.html file in your browser<br>
 <u>Step 3</u>
 and view my template <br>
 ### Live Demo : <https://ranjithv88.github.io/Web-Animation/>
 ### Sample ScreenShoot 
 ###### Web Animation Website Page <br>
 ![](https://github.com/Ranjithv88/work/blob/master/Web-Animation/screenshot/Web-Animaton%20ScreenShot.png)
+---
+## Sodacan-Spline Project 
+this is a sample page that usied by a html,css and Spline 3d Model Package,this is a Static page<br>
+you can clone use this url<br>
+`git Clone "https://github.com/Ranjithv88/Sodacan-Spline.git"` <br> 
+###### Run localhost
+Run the program in your computer use this step by step process<br>
+<u>Step 1</u>
+clone the repository url is given below<br>
+`git Clone "https://github.com/Ranjithv88/Sodacan-Spline.git"` <br> 
+<u>Step 2</u>
+open the folder to select the index.html file in your browser<br>
+<u>Step 3</u>
+and view my template <br>
+### Live Demo : <https://ranjithv88.github.io/Sodacan-Spline/>
+### Sample ScreenShoot 
+###### Web Animation Website Page <br>
+![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Sodacan-Spline/screenshot/SplineSodaCan-HomePage.png)
 ---
 # Follow Us
 ---
