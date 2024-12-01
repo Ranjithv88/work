@@ -89,7 +89,7 @@ and view my template <br>
 ## Links 
 <img width="28" height="28" src="https://img.icons8.com/ios/50/repository.png" alt="repository"/> This GitHub Repository Url : <https://github.com/Ranjithv88/work.git> <br>
 <img width="28" height="28" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/><https://github.com/Ranjithv88/> <br>
-<img width="28" height="28" src="https://img.icons8.com/cotton/28/mail.png" alt="mail"/> <RanjithKumar22445588@gmail.com> <br>
+<img width="28" height="28" src="https://img.icons8.com/cotton/28/mail.png" alt="mail"/> <mailto:ranjith.dev.00@gmail.com> <br>
 <img width="28" height="28" src="https://img.icons8.com/fluency/50/instagram-new.png" alt="instagram-new"/><https://instagram.com/ranjith_kumar__v> <br>
 <img width="28" height="28" src="https://img.icons8.com/color/50/linkedin.png" alt="linkedin"/><https://linkedin.com/in/ranjith-kumar-9838a5274> <br>
 <img width="28" height="28" src="https://img.icons8.com/ios-filled/50/codepen.png" alt="codepen"/><https://codepen.io/ranjith-kumar-the-sasster> <br>
