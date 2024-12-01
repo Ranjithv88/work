@@ -38,7 +38,7 @@ install react packages commands given below<br>
 #### npm Install 
 run localhost in commands given below (localhost:5173) and than i am using a vite Compiler <br>
 #### npm run dev
-### Live Demo : <https://github.com/Ranjithv88/Furniture--Templates.git>
+### Live Demo : <https://furniture-templates.vercel.app/>
 ### Sample ScreenShoot 
 ###### Furniture E-Commerce WebSites Home Page <br>
 ![](https://raw.githubusercontent.com/Ranjithv88/work/refs/heads/master/Furniture--Templates/ScreenShot/Furniture%20Home%20sample%20.png)
